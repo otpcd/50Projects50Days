@@ -47,6 +47,7 @@ body {
 
 .panel.active h3 {
     opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
 }
 
 /* Media query - if window is below 480px width, do not display last 2*/
