@@ -3,9 +3,12 @@ const buttonNode = document.querySelector('.btn');
 const inputNode = document.querySelector('.input')
 
 buttonNode.addEventListener('click', () => {
-    if (searchNode.classList.contains('active')) {
-        searchNode.classList.remove('active');
-    } else {
-        searchNode.classList.add('active');
-    }
+    // if (searchNode.classList.contains('active')) {
+    //     searchNode.classList.remove('active');
+    // } else {
+    //     searchNode.classList.add('active');
+    // }
+
+    searchNode.classList.toggle('active');
+    inputNode.focus();
 })
