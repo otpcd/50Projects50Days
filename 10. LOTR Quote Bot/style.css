@@ -9,6 +9,11 @@
     src: url('/fonts/middleearth.ttf');
 }
 
+@font-face {
+    font-family: 'Men';
+    src: url('/fonts/men.ttf');
+}
+
 body {
     background-color: rgb(122, 21, 21);
     font-family: 'Roboto', sans-serif;
@@ -65,4 +70,8 @@ h3 {
 
 .btn:focus {
     outline:0;
+}
+
+.quote {
+    font-family: men;
 }
